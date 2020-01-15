@@ -10,6 +10,14 @@ import javax.naming.RefAddr;
 import javax.naming.Reference;
 import javax.naming.spi.ObjectFactory;
 
+/**
+ * Simple ObjectFactory based on {@link Config} to return all configuration entries 
+ * 
+ * @see Config
+ * 
+ * @author fugerit
+ *
+ */
 public class ConfigProvider implements ObjectFactory, Serializable {
 
 	private static final long serialVersionUID = 6199621162425L;

@@ -11,6 +11,12 @@ import javax.naming.RefAddr;
 import javax.naming.Reference;
 import javax.naming.spi.ObjectFactory;
 
+/**
+ * Simple ObjectFactory using a java.util.Properties to return all configuration entries 
+ * 
+ * @author fugerit
+ *
+ */
 public class PropertyProvider implements ObjectFactory, Serializable {
 
 	private static final long serialVersionUID = 6199452144621162425L;
