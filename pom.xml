@@ -5,7 +5,7 @@
 
 	<groupId>org.fugerit.java</groupId>
 	<artifactId>fj-ee-provider</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.1-gh</version>
 	<packaging>jar</packaging>
 
 	<name>Java Enterprise Edition Naming Provider</name>
